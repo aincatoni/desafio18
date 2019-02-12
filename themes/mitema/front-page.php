@@ -77,8 +77,8 @@ the_post();
  else :
  _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
  endif;
- <?php get_sidebar(); ?>
- <?php get_footer(); ?>
+get_sidebar();
+get_footer(); ?>
  
 
 
