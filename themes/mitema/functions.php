@@ -5,9 +5,9 @@ function register_enqueue_style() {
 
     /* Registrando estilos */
     wp_register_style('bootstrap',
-    get_parent_theme_file_uri('echo get_template_directory_uri()/assets/vendor/bootstrap/css/bootstrap.css'), null, '1.0.0', 'screen');
+    get_parent_theme_file_uri('/assets/vendor/bootstrap/css/bootstrap.css'), null, '1.0.0', 'screen');
     wp_register_style('portfolio',
-    get_parent_theme_file_uri('echo get_template_directory_uri()/assets/css/portfoli-item.css'), null, '1.0.0', 'screen');
+    get_parent_theme_file_uri('/assets/css/portfoli-item.css'), null, '1.0.0', 'screen');
     wp_register_style('fontAwesome',
     'https://use.fontawesome.com/releases/v5.7.1/css/all.css', null, '1.0.0', 'screen');
     wp_register_style('googleFonts',
@@ -45,9 +45,9 @@ function register_enqueue_style() {
 
 
     /* Registrando Scripts */
-    wp_register_scrip('jQuery3',
+    wp_register_script('jQuery3',
     get_parent_theme_file_uri('https://code.jquery.com/jquery-3.3.1.min.js'), null, '3.3.1', true);
-    wp_register_scrip('jQuery_migrate',
+    wp_register_script('jQuery_migrate',
     get_parent_theme_file_uri('https://code.jquery.com/jquery-migrate-3.0.1.min.js'), array('jQuery3'), '3.0.1', true);
     wp_register_script('bootstrap',
     get_parent_theme_file_uri('get_template_directory_uri()/assets/vendor/bootstrap/js/bootstrap.js'), array('jQuery_migrate'), null, true);

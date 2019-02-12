@@ -6,7 +6,7 @@
       <!-- /.container -->
     </footer>
 
-    
+    <?php wp_foot(); ?>
 
   </body>
 
