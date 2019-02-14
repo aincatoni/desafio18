@@ -1,4 +1,6 @@
 <?php
+ 
+ add_theme_support( "post-thumbnails" );
 
 function register_enqueue_style() {
     $theme_data = wp_get_theme();
