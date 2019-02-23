@@ -41,8 +41,8 @@ function register_enqueue_style() {
         $theme_data = wp_get_theme();
 
         /* Deregister Scripts */
-        wp_deregister_script('jquery');
-        wp_deregister_script('jquery-migrate');
+        //wp_deregister_script('jquery');
+        //wp_deregister_script('jquery-migrate');
     
 
 
